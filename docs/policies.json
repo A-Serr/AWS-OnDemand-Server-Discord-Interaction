@@ -37,6 +37,7 @@
           "Action": [
               "ecr:SetRepositoryPolicy",
               "ecr:GetLifecyclePolicy",
+              "ecr:PutLifecyclePolicy",
               "ecr:PutImageScanningConfiguration",
               "ecr:DescribeRepositories",
               "ecr:CreateRepository",
