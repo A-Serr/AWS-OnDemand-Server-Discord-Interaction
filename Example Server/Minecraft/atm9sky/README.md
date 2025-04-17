@@ -22,5 +22,5 @@ systemctl stop minecraft.service
 systemctl restart minecraft.service
 
 # access to the logs
-journalctl -u minecraft.service
+journalctl -u minecraft.service --lines=10
 ```

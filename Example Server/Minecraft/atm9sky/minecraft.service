@@ -1,0 +1,12 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+User=minecraft
+WorkingDirectory=/home/minecraft
+ExecStart=/home/minecraft/startserver.sh
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
