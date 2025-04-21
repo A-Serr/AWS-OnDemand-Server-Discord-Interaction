@@ -1,0 +1,12 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+User=minecraft
+WorkingDirectory=/home/minecraft
+ExecStart=/usr/bin/java -Xms1g -Xmx1g -jar /home/minecraft/server.jar nogui
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

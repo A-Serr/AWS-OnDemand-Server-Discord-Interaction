@@ -1,0 +1,1 @@
+*/15 * * * * root /bin/bash /home/minecraft/auto_shutdown.sh > /home/minecraft/auto_shutdown.log 2>&1
